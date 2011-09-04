@@ -13,7 +13,7 @@
 		C48B47881413FDF6004342B5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C48B47871413FDF5004342B5 /* CoreData.framework */; };
 		C48B478E1413FDF6004342B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C48B478C1413FDF6004342B5 /* InfoPlist.strings */; };
 		C48B47901413FDF6004342B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C48B478F1413FDF6004342B5 /* main.m */; };
-		C48B47941413FDF6004342B5 /* pointlyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C48B47931413FDF6004342B5 /* pointlyAppDelegate.m */; };
+		C48B47941413FDF6004342B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C48B47931413FDF6004342B5 /* AppDelegate.m */; };
 		C48B47971413FDF6004342B5 /* pointly.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C48B47951413FDF6004342B5 /* pointly.xcdatamodeld */; };
 		C48B479F1413FDF6004342B5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C48B479E1413FDF6004342B5 /* SenTestingKit.framework */; };
 		C48B47A01413FDF6004342B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C48B47811413FDF5004342B5 /* UIKit.framework */; };
@@ -40,18 +40,18 @@
 		C48B47831413FDF5004342B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C48B47851413FDF5004342B5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		C48B47871413FDF5004342B5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		C48B478B1413FDF6004342B5 /* pointly-Info.plist */ = {isa = PBXFileReference; path = "pointly-Info.plist"; sourceTree = "<group>"; };
+		C48B478B1413FDF6004342B5 /* pointly-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pointly-Info.plist"; sourceTree = "<group>"; };
 		C48B478D1413FDF6004342B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C48B478F1413FDF6004342B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C48B47911413FDF6004342B5 /* pointly-Prefix.pch */ = {isa = PBXFileReference; path = "pointly-Prefix.pch"; sourceTree = "<group>"; };
-		C48B47921413FDF6004342B5 /* pointlyAppDelegate.h */ = {isa = PBXFileReference; path = pointlyAppDelegate.h; sourceTree = "<group>"; };
-		C48B47931413FDF6004342B5 /* pointlyAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pointlyAppDelegate.m; sourceTree = "<group>"; };
+		C48B47911413FDF6004342B5 /* pointly-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pointly-Prefix.pch"; sourceTree = "<group>"; };
+		C48B47921413FDF6004342B5 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		C48B47931413FDF6004342B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C48B47961413FDF6004342B5 /* pointly.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = pointly.xcdatamodel; sourceTree = "<group>"; };
 		C48B479D1413FDF6004342B5 /* pointlyTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pointlyTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C48B479E1413FDF6004342B5 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		C48B47A81413FDF6004342B5 /* pointlyTests-Info.plist */ = {isa = PBXFileReference; path = "pointlyTests-Info.plist"; sourceTree = "<group>"; };
+		C48B47A81413FDF6004342B5 /* pointlyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pointlyTests-Info.plist"; sourceTree = "<group>"; };
 		C48B47AA1413FDF6004342B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C48B47AC1413FDF6004342B5 /* pointlyTests.h */ = {isa = PBXFileReference; path = pointlyTests.h; sourceTree = "<group>"; };
+		C48B47AC1413FDF6004342B5 /* pointlyTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pointlyTests.h; sourceTree = "<group>"; };
 		C48B47AD1413FDF6004342B5 /* pointlyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pointlyTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -116,8 +116,8 @@
 		C48B47891413FDF6004342B5 /* pointly */ = {
 			isa = PBXGroup;
 			children = (
-				C48B47921413FDF6004342B5 /* pointlyAppDelegate.h */,
-				C48B47931413FDF6004342B5 /* pointlyAppDelegate.m */,
+				C48B47921413FDF6004342B5 /* AppDelegate.h */,
+				C48B47931413FDF6004342B5 /* AppDelegate.m */,
 				C48B47951413FDF6004342B5 /* pointly.xcdatamodeld */,
 				C48B478A1413FDF6004342B5 /* Supporting Files */,
 			);
@@ -199,6 +199,7 @@
 		C48B47741413FDF5004342B5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = "Sputr LLC";
 			};
 			buildConfigurationList = C48B47771413FDF5004342B5 /* Build configuration list for PBXProject "pointly" */;
@@ -260,7 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C48B47901413FDF6004342B5 /* main.m in Sources */,
-				C48B47941413FDF6004342B5 /* pointlyAppDelegate.m in Sources */,
+				C48B47941413FDF6004342B5 /* AppDelegate.m in Sources */,
 				C48B47971413FDF6004342B5 /* pointly.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
