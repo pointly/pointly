@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C48B47821413FDF5004342B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C48B47811413FDF5004342B5 /* UIKit.framework */; };
+		C48B47841413FDF5004342B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C48B47831413FDF5004342B5 /* Foundation.framework */; };
+		C48B47861413FDF5004342B5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C48B47851413FDF5004342B5 /* CoreGraphics.framework */; };
+		C48B47881413FDF6004342B5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C48B47871413FDF5004342B5 /* CoreData.framework */; };
+		C48B478E1413FDF6004342B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C48B478C1413FDF6004342B5 /* InfoPlist.strings */; };
+		C48B47901413FDF6004342B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C48B478F1413FDF6004342B5 /* main.m */; };
+		C48B47941413FDF6004342B5 /* pointlyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C48B47931413FDF6004342B5 /* pointlyAppDelegate.m */; };
+		C48B47971413FDF6004342B5 /* pointly.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C48B47951413FDF6004342B5 /* pointly.xcdatamodeld */; };
+		C48B479F1413FDF6004342B5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C48B479E1413FDF6004342B5 /* SenTestingKit.framework */; };
+		C48B47A01413FDF6004342B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C48B47811413FDF5004342B5 /* UIKit.framework */; };
+		C48B47A11413FDF6004342B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C48B47831413FDF5004342B5 /* Foundation.framework */; };
+		C48B47A21413FDF6004342B5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C48B47851413FDF5004342B5 /* CoreGraphics.framework */; };
+		C48B47A31413FDF6004342B5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C48B47871413FDF5004342B5 /* CoreData.framework */; };
+		C48B47AB1413FDF6004342B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C48B47A91413FDF6004342B5 /* InfoPlist.strings */; };
+		C48B47AE1413FDF6004342B5 /* pointlyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C48B47AD1413FDF6004342B5 /* pointlyTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C48B47A41413FDF6004342B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C48B47741413FDF5004342B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C48B477C1413FDF5004342B5;
+			remoteInfo = pointly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C48B477D1413FDF5004342B5 /* pointly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pointly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C48B47811413FDF5004342B5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C48B47831413FDF5004342B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C48B47851413FDF5004342B5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C48B47871413FDF5004342B5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C48B478B1413FDF6004342B5 /* pointly-Info.plist */ = {isa = PBXFileReference; path = "pointly-Info.plist"; sourceTree = "<group>"; };
+		C48B478D1413FDF6004342B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C48B478F1413FDF6004342B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C48B47911413FDF6004342B5 /* pointly-Prefix.pch */ = {isa = PBXFileReference; path = "pointly-Prefix.pch"; sourceTree = "<group>"; };
+		C48B47921413FDF6004342B5 /* pointlyAppDelegate.h */ = {isa = PBXFileReference; path = pointlyAppDelegate.h; sourceTree = "<group>"; };
+		C48B47931413FDF6004342B5 /* pointlyAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pointlyAppDelegate.m; sourceTree = "<group>"; };
+		C48B47961413FDF6004342B5 /* pointly.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = pointly.xcdatamodel; sourceTree = "<group>"; };
+		C48B479D1413FDF6004342B5 /* pointlyTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pointlyTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C48B479E1413FDF6004342B5 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C48B47A81413FDF6004342B5 /* pointlyTests-Info.plist */ = {isa = PBXFileReference; path = "pointlyTests-Info.plist"; sourceTree = "<group>"; };
+		C48B47AA1413FDF6004342B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C48B47AC1413FDF6004342B5 /* pointlyTests.h */ = {isa = PBXFileReference; path = pointlyTests.h; sourceTree = "<group>"; };
+		C48B47AD1413FDF6004342B5 /* pointlyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pointlyTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C48B477A1413FDF5004342B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C48B47821413FDF5004342B5 /* UIKit.framework in Frameworks */,
+				C48B47841413FDF5004342B5 /* Foundation.framework in Frameworks */,
+				C48B47861413FDF5004342B5 /* CoreGraphics.framework in Frameworks */,
+				C48B47881413FDF6004342B5 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C48B47991413FDF6004342B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C48B479F1413FDF6004342B5 /* SenTestingKit.framework in Frameworks */,
+				C48B47A01413FDF6004342B5 /* UIKit.framework in Frameworks */,
+				C48B47A11413FDF6004342B5 /* Foundation.framework in Frameworks */,
+				C48B47A21413FDF6004342B5 /* CoreGraphics.framework in Frameworks */,
+				C48B47A31413FDF6004342B5 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C48B47721413FDF5004342B5 = {
+			isa = PBXGroup;
+			children = (
+				C48B47891413FDF6004342B5 /* pointly */,
+				C48B47A61413FDF6004342B5 /* pointlyTests */,
+				C48B47801413FDF5004342B5 /* Frameworks */,
+				C48B477E1413FDF5004342B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C48B477E1413FDF5004342B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C48B477D1413FDF5004342B5 /* pointly.app */,
+				C48B479D1413FDF6004342B5 /* pointlyTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C48B47801413FDF5004342B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C48B47811413FDF5004342B5 /* UIKit.framework */,
+				C48B47831413FDF5004342B5 /* Foundation.framework */,
+				C48B47851413FDF5004342B5 /* CoreGraphics.framework */,
+				C48B47871413FDF5004342B5 /* CoreData.framework */,
+				C48B479E1413FDF6004342B5 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C48B47891413FDF6004342B5 /* pointly */ = {
+			isa = PBXGroup;
+			children = (
+				C48B47921413FDF6004342B5 /* pointlyAppDelegate.h */,
+				C48B47931413FDF6004342B5 /* pointlyAppDelegate.m */,
+				C48B47951413FDF6004342B5 /* pointly.xcdatamodeld */,
+				C48B478A1413FDF6004342B5 /* Supporting Files */,
+			);
+			path = pointly;
+			sourceTree = "<group>";
+		};
+		C48B478A1413FDF6004342B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C48B478B1413FDF6004342B5 /* pointly-Info.plist */,
+				C48B478C1413FDF6004342B5 /* InfoPlist.strings */,
+				C48B478F1413FDF6004342B5 /* main.m */,
+				C48B47911413FDF6004342B5 /* pointly-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C48B47A61413FDF6004342B5 /* pointlyTests */ = {
+			isa = PBXGroup;
+			children = (
+				C48B47AC1413FDF6004342B5 /* pointlyTests.h */,
+				C48B47AD1413FDF6004342B5 /* pointlyTests.m */,
+				C48B47A71413FDF6004342B5 /* Supporting Files */,
+			);
+			path = pointlyTests;
+			sourceTree = "<group>";
+		};
+		C48B47A71413FDF6004342B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C48B47A81413FDF6004342B5 /* pointlyTests-Info.plist */,
+				C48B47A91413FDF6004342B5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C48B477C1413FDF5004342B5 /* pointly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C48B47B11413FDF6004342B5 /* Build configuration list for PBXNativeTarget "pointly" */;
+			buildPhases = (
+				C48B47791413FDF5004342B5 /* Sources */,
+				C48B477A1413FDF5004342B5 /* Frameworks */,
+				C48B477B1413FDF5004342B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pointly;
+			productName = pointly;
+			productReference = C48B477D1413FDF5004342B5 /* pointly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C48B479C1413FDF6004342B5 /* pointlyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C48B47B41413FDF6004342B5 /* Build configuration list for PBXNativeTarget "pointlyTests" */;
+			buildPhases = (
+				C48B47981413FDF6004342B5 /* Sources */,
+				C48B47991413FDF6004342B5 /* Frameworks */,
+				C48B479A1413FDF6004342B5 /* Resources */,
+				C48B479B1413FDF6004342B5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C48B47A51413FDF6004342B5 /* PBXTargetDependency */,
+			);
+			name = pointlyTests;
+			productName = pointlyTests;
+			productReference = C48B479D1413FDF6004342B5 /* pointlyTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C48B47741413FDF5004342B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Sputr LLC";
+			};
+			buildConfigurationList = C48B47771413FDF5004342B5 /* Build configuration list for PBXProject "pointly" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C48B47721413FDF5004342B5;
+			productRefGroup = C48B477E1413FDF5004342B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C48B477C1413FDF5004342B5 /* pointly */,
+				C48B479C1413FDF6004342B5 /* pointlyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C48B477B1413FDF5004342B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C48B478E1413FDF6004342B5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C48B479A1413FDF6004342B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C48B47AB1413FDF6004342B5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C48B479B1413FDF6004342B5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C48B47791413FDF5004342B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C48B47901413FDF6004342B5 /* main.m in Sources */,
+				C48B47941413FDF6004342B5 /* pointlyAppDelegate.m in Sources */,
+				C48B47971413FDF6004342B5 /* pointly.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C48B47981413FDF6004342B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C48B47AE1413FDF6004342B5 /* pointlyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C48B47A51413FDF6004342B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C48B477C1413FDF5004342B5 /* pointly */;
+			targetProxy = C48B47A41413FDF6004342B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C48B478C1413FDF6004342B5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C48B478D1413FDF6004342B5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C48B47A91413FDF6004342B5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C48B47AA1413FDF6004342B5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C48B47AF1413FDF6004342B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C48B47B01413FDF6004342B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C48B47B21413FDF6004342B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pointly/pointly-Prefix.pch";
+				INFOPLIST_FILE = "pointly/pointly-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C48B47B31413FDF6004342B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pointly/pointly-Prefix.pch";
+				INFOPLIST_FILE = "pointly/pointly-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C48B47B51413FDF6004342B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/pointly.app/pointly";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pointly/pointly-Prefix.pch";
+				INFOPLIST_FILE = "pointlyTests/pointlyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C48B47B61413FDF6004342B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/pointly.app/pointly";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pointly/pointly-Prefix.pch";
+				INFOPLIST_FILE = "pointlyTests/pointlyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C48B47771413FDF5004342B5 /* Build configuration list for PBXProject "pointly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C48B47AF1413FDF6004342B5 /* Debug */,
+				C48B47B01413FDF6004342B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C48B47B11413FDF6004342B5 /* Build configuration list for PBXNativeTarget "pointly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C48B47B21413FDF6004342B5 /* Debug */,
+				C48B47B31413FDF6004342B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C48B47B41413FDF6004342B5 /* Build configuration list for PBXNativeTarget "pointlyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C48B47B51413FDF6004342B5 /* Debug */,
+				C48B47B61413FDF6004342B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C48B47951413FDF6004342B5 /* pointly.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C48B47961413FDF6004342B5 /* pointly.xcdatamodel */,
+			);
+			currentVersion = C48B47961413FDF6004342B5 /* pointly.xcdatamodel */;
+			path = pointly.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C48B47741413FDF5004342B5 /* Project object */;
+}
